@@ -20,37 +20,37 @@
       <!-- jinahya-persistence -->
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-encryption</artifactId>
+        <artifactId>jinahya-persistence-encryption-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-encryption-eclipselink</artifactId>
+        <artifactId>jinahya-persistence-encryption-eclipselink-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-encryption-hibernate</artifactId>
+        <artifactId>jinahya-persistence-encryption-hibernate-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-more</artifactId>
+        <artifactId>jinahya-persistence-more-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-more-test</artifactId>
+        <artifactId>jinahya-persistence-more-test-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-test-utils</artifactId>
+        <artifactId>jinahya-persistence-test-utils-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <dependency>
         <groupId>io.github.jinahya</groupId>
-        <artifactId>jinahya-persistence-utils</artifactId>
+        <artifactId>jinahya-persistence-utils-11</artifactId>
         <version>${version.io.github.jinahya.jinahya-persistence}</version>
       </dependency>
       <!-- jinahya-validation -->

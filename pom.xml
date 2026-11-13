@@ -39,9 +39,8 @@
        released versions, which the maven-release-plugin checks. -->
   <properties>
     <!-- https://github.com/jinahya/jinahya-persistence -->
-    <!-- https://central.sonatype.com/artifact/io.github.jinahya/jinahya-persistence-utils/versions -->
-    <!-- Jakarta EE 11 only, with no generation in its artifactIds -->
-    <version.io.github.jinahya.jinahya-persistence>0.6.9</version.io.github.jinahya.jinahya-persistence>
+    <!-- https://central.sonatype.com/artifact/io.github.jinahya/jinahya-persistence-utils-11/versions -->
+    <version.io.github.jinahya.jinahya-persistence>0.7.1</version.io.github.jinahya.jinahya-persistence>
     <!-- https://github.com/jinahya/jinahya-validation -->
     <!-- https://central.sonatype.com/artifact/io.github.jinahya/jinahya-validation-utils-11/versions -->
     <version.io.github.jinahya.jinahya-validation>0.0.3</version.io.github.jinahya.jinahya-validation>

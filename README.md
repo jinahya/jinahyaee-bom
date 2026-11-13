@@ -6,7 +6,7 @@ Bills of materials of the `jinahya-*` artifacts, one per Jakarta EE generation, 
 | Jakarta EE | Bill of materials | Manages |
 | --- | --- | --- |
 | 10 | `io.github.jinahya:jinahyaee-bom-10` | `jinahya-validation-*-10` |
-| 11 | `io.github.jinahya:jinahyaee-bom-11` | `jinahya-persistence-*`, `jinahya-validation-*-11` |
+| 11 | `io.github.jinahya:jinahyaee-bom-11` | `jinahya-persistence-*-11`, `jinahya-validation-*-11` |
 
 Import the one of your generation beside the Jakarta EE BOM, and declare the artifacts without versions:
 
@@ -47,7 +47,7 @@ jinahyaee-bom-NN/     the bill of materials of Jakarta EE NN
 
 | Project | Version | Generations | Note |
 | --- | --- | --- | --- |
-| [jinahya-persistence](https://github.com/jinahya/jinahya-persistence) | 0.6.9 | 11 | no generation in its artifactIds |
+| [jinahya-persistence](https://github.com/jinahya/jinahya-persistence) | 0.7.1 | 11 | `-NN` artifacts from 0.7.0 |
 | [jinahya-validation](https://github.com/jinahya/jinahya-validation) | 0.0.3 | 10, 11 | `-NN` artifacts from 0.0.3 |
 
 Release a member before this project: a bill of materials is released only with released versions.
@@ -133,12 +133,6 @@ shared/<module>/src/...          the sources every generation shares
 * Every release of every member counts against the `io.github.jinahya` namespace's monthly publishing limits on Maven
   Central (27 releases, 400 MB, 12,210 files, since support ticket #130571, 2026-11-13); batch changes rather than
   release each one.
-
-### To do
-
-* [jinahya-persistence](https://github.com/jinahya/jinahya-persistence): restructure into
-  `jinahya-persistence-NN` generations with `-NN` artifactIds, as jinahya-validation did in 0.0.3, then list its
-  artifacts in `jinahyaee-bom-NN` by their new names.
 
 ## Adding a generation
 
