@@ -46,7 +46,6 @@
     <version.io.github.jinahya.jinahya-persistence>0.6.9</version.io.github.jinahya.jinahya-persistence>
     <!-- https://github.com/jinahya/jinahya-validation -->
     <!-- https://central.sonatype.com/artifact/io.github.jinahya/jinahya-validation-utils-11/versions -->
-    <!-- not released yet; its -NN artifacts are first released with 0.0.3 -->
-    <version.io.github.jinahya.jinahya-validation>0.0.3-SNAPSHOT</version.io.github.jinahya.jinahya-validation>
+    <version.io.github.jinahya.jinahya-validation>0.0.3</version.io.github.jinahya.jinahya-validation>
   </properties>
 </project>

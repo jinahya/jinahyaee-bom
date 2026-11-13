@@ -48,7 +48,7 @@ jinahyaee-bom-NN/     the bill of materials of Jakarta EE NN
 | Project | Version | Generations | Note |
 | --- | --- | --- | --- |
 | [jinahya-persistence](https://github.com/jinahya/jinahya-persistence) | 0.6.9 | 11 | no generation in its artifactIds |
-| [jinahya-validation](https://github.com/jinahya/jinahya-validation) | 0.0.3-SNAPSHOT | 10, 11 | not released yet; `-NN` artifacts from 0.0.3 |
+| [jinahya-validation](https://github.com/jinahya/jinahya-validation) | 0.0.3 | 10, 11 | `-NN` artifacts from 0.0.3 |
 
 Release a member before this project: a bill of materials is released only with released versions.
 
