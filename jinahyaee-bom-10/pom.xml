@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.github.jinahya</groupId>
+    <artifactId>jinahyaee-bom</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>jinahyaee-bom-10</artifactId>
+  <packaging>pom</packaging>
+
+  <name>${project.artifactId}</name>
+  <description>Bill of materials of the jinahya-* artifacts for Jakarta EE 10</description>
+
+  <!-- Import it beside jakarta.platform:jakarta.jakartaee-bom 10.x; every artifact here is built for Jakarta EE 10. -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- jinahya-validation -->
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-validation-test-utils-10</artifactId>
+        <version>${version.io.github.jinahya.jinahya-validation}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-validation-utils-10</artifactId>
+        <version>${version.io.github.jinahya.jinahya-validation}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

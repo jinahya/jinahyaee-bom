@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.github.jinahya</groupId>
+    <artifactId>jinahyaee-bom</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>jinahyaee-bom-11</artifactId>
+  <packaging>pom</packaging>
+
+  <name>${project.artifactId}</name>
+  <description>Bill of materials of the jinahya-* artifacts for Jakarta EE 11</description>
+
+  <!-- Import it beside jakarta.platform:jakarta.jakartaee-bom 11.x; every artifact here is built for Jakarta EE 11. -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- jinahya-persistence -->
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-encryption</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-encryption-eclipselink</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-encryption-hibernate</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-more</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-more-test</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-test-utils</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-persistence-utils</artifactId>
+        <version>${version.io.github.jinahya.jinahya-persistence}</version>
+      </dependency>
+      <!-- jinahya-validation -->
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-validation-test-utils-11</artifactId>
+        <version>${version.io.github.jinahya.jinahya-validation}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.jinahya</groupId>
+        <artifactId>jinahya-validation-utils-11</artifactId>
+        <version>${version.io.github.jinahya.jinahya-validation}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
