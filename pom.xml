@@ -11,7 +11,7 @@
 
   <groupId>io.github.jinahya</groupId>
   <artifactId>jinahyaee-bom</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -32,7 +32,7 @@
     <connection>scm:git:git@github.com:jinahya/jinahyaee-bom.git</connection>
     <developerConnection>scm:git:git@github.com:jinahya/jinahyaee-bom.git</developerConnection>
     <url>https://github.com/jinahya/jinahyaee-bom</url>
-    <tag>HEAD</tag>
+    <tag>0.0.2</tag>
   </scm>
 
   <!-- The version of each member project, one for all of its generations; a bill of materials is released only with
