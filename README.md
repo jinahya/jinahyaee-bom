@@ -48,7 +48,7 @@ jinahyaee-bom-NN/     the bill of materials of Jakarta EE NN
 | Project | Version | Generations | Note |
 | --- | --- | --- | --- |
 | [jinahya-persistence](https://github.com/jinahya/jinahya-persistence) | 0.7.1 | 11 | `-NN` artifacts from 0.7.0 |
-| [jinahya-validation](https://github.com/jinahya/jinahya-validation) | 0.0.3 | 10, 11 | `-NN` artifacts from 0.0.3 |
+| [jinahya-validation](https://github.com/jinahya/jinahya-validation) | 0.0.4 | 10, 11 | `-NN` artifacts from 0.0.3 |
 
 Release a member before this project: a bill of materials is released only with released versions.
 
@@ -79,6 +79,10 @@ Every member (validation, persistence, and any other Jakarta area) follows the l
 * All generations live on one branch and are released together, at the member's version; never a branch or a version
   per generation.
 * Every API of the area is `provided`: the platform, or the user's own implementation, supplies it.
+* Each module has a `module-info.java` in `shared/<module>/src/main/java`, named after its package
+  (`io.github.jinahya.validation.util`), never after its artifactId: the `-NN` suffix would derive an invalid
+  automatic module name (`jinahya.validation.utils.11`), and every generation of a module shares its name, as it shares
+  its packages.
 
 ### Layout
 
